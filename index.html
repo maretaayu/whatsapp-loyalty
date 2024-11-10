@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home">
+        <img src="assets/Logo Whatsapp Loyalty.png" alt="logo" />
+      </a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- hero  -->
+    <div class="hero">
+      <div class="page-center">
+        <div class="hero-content">
+          <img
+            src="assets/Logo Whatsapp Loyalty.png"
+            alt="Logo Whatsapp Loyalty"
+          />
+          <h1 class="text-ink">
+            Transform Your Loyalty Program with WhatsApp—Boost Sales and Retain
+            Customers Effortlessly
+          </h1>
+          <p class="text-ink-90">
+            Simplify your incentive programs for retailers, store owners, and
+            SPGs—no app download required.
+          </p>
+          <button class="btn-primary">Book a Demo</button>
+          <div class="chat-interaction">
+            <div class="chat-container">
+              <div class="messages">
+                <div class="bubble bubble-right">
+                  I would like to book a room with an ocean view at MyHotel Raja
+                  Ampat. Is there a room available for January 1st?
+                </div>
+                <div class="bubble bubble-left">
+                  Great choice! Let me check availability for you for January
+                  1st. Checking now...🎩✨ Fantastic news! We've got some
+                  amazing ocean-view rooms ready for your stay. Ready to book
+                  one of these beautiful rooms? Just share your email, and I'll
+                  take care of the rest, sending over your confirmation right
+                  away! 🌟📧
+                </div>
+              </div>
+            </div>
+            <img src="assets/placeholder-phone.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of hero -->
+
+    <!-- client  -->
+    <div class="client">
+      <div class="page-center">
+        <div class="client-content flex gap-60">
+          <img src="assets/Taco.png" alt="Logo Taco" />
+          <img src="assets/Danone.png" alt="Logo Danone" />
+          <img src="assets/Ayana.png" alt="Logo Ayana" />
+          <img src="assets/Morinaga.png" alt="Logo Morinaga" />
+          <img src="assets/Goodyear.png" alt="Logo Goodyear" />
+        </div>
+      </div>
+    </div>
+    <!-- end of client -->
+
+    <!-- why  -->
+    <div class="why">
+      <div class="page-center">
+        <div class="why-content">
+          <div class="flex flex-column gap-24 text-center">
+            <h2>Why Choose Tada’s WhatsApp Loyalty?</h2>
+            <p>
+              Transform Loyalty Programs with Ease. Eliminate the friction of
+              onboarding stakeholders through mobile apps. Use the familiar,
+              user-friendly platform of WhatsApp.
+            </p>
+          </div>
+
+          <div class="why-group flex gap-24 flex-wrap">
+            <div class="why-card">
+              <img src="assets/icon-onboarding.png" alt="Faster onboarding" />
+              <div class="flex flex-column gap-4 my-4">
+                <h3>Faster Onboarding</h3>
+                <p>
+                  Get your retailers, store owners, and sales teams up and
+                  running quickly.
+                </p>
+              </div>
+              <img
+                src="assets/placeholder-faster-onboarding.png"
+                alt="Image Faster Onboarding"
+              />
+            </div>
+
+            <div class="why-card">
+              <img src="assets/icon-easy-access.png" alt="Easy access" />
+              <div class="flex flex-column gap-4 my-4">
+                <h3>Easy Access</h3>
+                <p>Engage stakeholders where they already are—on WhatsApp.</p>
+              </div>
+              <img
+                src="assets/placeholder-easy-access.png"
+                alt="Image Easy Access"
+              />
+            </div>
+
+            <div class="why-card">
+              <img
+                src="assets/icon-no-extra-downloads.png"
+                alt="No Extra Downloads"
+              />
+              <div class="flex flex-column gap-4 my-4">
+                <h3>No Extra Downloads</h3>
+                <p>
+                  Forget the hassle of convincing partners to download another
+                  app.
+                </p>
+              </div>
+              <img
+                src="assets/placeholder-no-extra-downloads.png"
+                alt="Image No Extra Downloads"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of why -->
+
+    <!-- whatsapp based platform  -->
+    <div class="platform">
+      <div class="page-center">
+        <div class="platform-content">
+          <div class="text-center gap-24 flex flex-column">
+            <h2>WhatsApp-Based Platform</h2>
+            <p class="text-ink-60">
+              Drive engagement and loyalty with personalized interactions
+              directly through WhatsApp. Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+          </div>
+
+          <!-- tab  -->
+          <div class="tab">
+            <button
+              class="tablinks"
+              onclick="openCity(event, 'Register')"
+              id="defaultOpen"
+            >
+              Register
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Redemption')">
+              Redemption
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Gamification')">
+              Gamification
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Referral')">
+              Referral
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Earning')">
+              Earning
+            </button>
+          </div>
+
+          <div id="Register" class="tabcontent">
+            <div class="box-platform-content grid gap-24">
+              <img src="assets/image-register.jpeg" alt="Register" />
+              <div class="flex flex-column gap-16">
+                <h3>Register</h3>
+                <p class="text-light">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="Redemption" class="tabcontent">
+            <div class="box-platform-content grid gap-24">
+              <img src="assets/image-redemption.jpeg" alt="Redemption" />
+              <div class="flex flex-column gap-16">
+                <h3>Redemption</h3>
+                <p class="text-light">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="Gamification" class="tabcontent">
+            <div class="box-platform-content grid gap-24">
+              <img src="assets/image-gamification.jpeg" alt="Gamification" />
+              <div class="flex flex-column gap-16">
+                <h3>Gamification</h3>
+                <p class="text-light">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- referral -->
+          <div id="Referral" class="tabcontent">
+            <div class="box-platform-content grid gap-24">
+              <img src="assets/image-referral.jpeg" alt="Referral" />
+              <div class="flex flex-column gap-16">
+                <h3>Referral</h3>
+                <p class="text-light">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- earning  -->
+          <div id="Earning" class="tabcontent">
+            <div class="box-platform-content grid gap-24">
+              <img src="assets/image-earning.jpeg" alt="Earning" />
+              <div class="flex flex-column gap-16">
+                <h3>Earning</h3>
+                <p class="text-light">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of whatsapp based platform -->
+
+    <!-- customize rewards and incentives -->
+    <div class="customize">
+      <div class="page-center">
+        <div class="customize-content box box-gray">
+          <div class="grid gap-24 justify-center">
+            <h2>Customizable Rewards & Incentives</h2>
+            <p>
+              Drive engagement and loyalty with personalized interactions
+              directly through WhatsApp. Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <img
+              src="assets/placeholder-customizable-rewards-incentives.png"
+              alt="Customizable Rewards & Incentives"
+              class="mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of customize rewards and incentives -->
+
+    <!-- real time reporting and analytics -->
+    <div class="realtime">
+      <div class="page-center">
+        <div class="realtime-content box">
+          <div class="grid gap-24 justify-center">
+            <h2>Customizable Rewards & Incentives</h2>
+            <p>
+              Drive engagement and loyalty with personalized interactions
+              directly through WhatsApp. Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry
+            </p>
+            <img
+              src="assets/placeholder-reports.png"
+              alt="Customizable Rewards & Incentives"
+              class="mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of real time reporting and analytics -->
+
+    <!-- accordion -->
+    <div class="section-accordion">
+      <div class="page-center">
+        <h2 class="text-invert text-center">Lorem Ipsum</h2>
+        <div class="container">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Customers
+                <img
+                  src="assets/icon-chevron.png"
+                  class="icon"
+                  alt="Icon Chevron"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Effortlessly update your current app or create a new one
+                  promptly using our efficient whitelabel app/web service. It's
+                  ready to use, customizable to match your branding, and
+                  features seamless plug-and-play integration.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Wholesalers
+                <img
+                  src="assets/icon-chevron.png"
+                  class="icon"
+                  alt="Icon Chevron"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Access our wholesale platform to get the best deals on bulk
+                  purchases. We offer competitive pricing, reliable shipping,
+                  and dedicated support for all our wholesale partners.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Promoters
+                <img
+                  src="assets/icon-chevron.png"
+                  class="icon"
+                  alt="Icon Chevron"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Join our promoter program to earn rewards while promoting our
+                  products. Get access to exclusive marketing materials and
+                  competitive commission rates.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                Lucky Draw
+                <img
+                  src="assets/icon-chevron.png"
+                  class="icon"
+                  alt="Icon Chevron"
+                  width="32px"
+                  height="32px"
+                />
+              </button>
+              <div class="accordion-content">
+                <p>
+                  Participate in our monthly lucky draw events for a chance to
+                  win amazing prizes. Every purchase gives you an entry ticket
+                  to the draw.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="image-container">
+            <img
+              src="assets/Phone.png"
+              class="preview-image active"
+              data-section="customers"
+              alt="Customers"
+            />
+            <img
+              src="assets/Phone.png"
+              class="preview-image"
+              data-section="wholesalers"
+              alt="Wholesalers"
+            />
+            <img
+              src="assets/Phone.png"
+              class="preview-image"
+              data-section="promoters"
+              alt="Promoters"
+            />
+            <img
+              src="assets/Phone.png"
+              class="preview-image"
+              data-section="lucky-draw"
+              alt="Lucky Draw"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of accordion -->
+
+    <!-- success stories  -->
+    <div class="stories">
+      <div class="page-centern">
+        <div class="stories-content">
+          <h2 class="text-center">Success Stories</h2>
+          <div class="story-item flex-wrap flex justify-end">
+            <img
+              src="assets/story-automotive.png"
+              alt="Story story-automotive"
+              loading="lazy"
+              class="img-story"
+            />
+            <div class="story-card story-card-up">
+              <h3>Automotive Parts Brand</h3>
+              <div class="story-card-detail">
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-challenge.png"
+                    alt="ic-challenge"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>Challenge</b></p>
+                    <p class="text-light">
+                      Slow adoption of traditional loyalty programs.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-increase.png"
+                    alt="ic-increase"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>35% increase</b></p>
+                    <p class="text-light">in reward redemption</p>
+                  </div>
+                </div>
+
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-solution.png"
+                    alt="ic-solution"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>Solution</b></p>
+                    <p class="text-light">
+                      Implemented Tada’s WhatsApp Loyalty Program to reach
+                      mechanics and store owners directly
+                    </p>
+                  </div>
+                </div>
+
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-boost.png"
+                    alt="ic-boost"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>25% boost</b></p>
+                    <p class="text-light">
+                      in partner engagement within three months.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-item flex-wrap flex">
+            <img
+              src="assets/story-fmcg.png"
+              alt="Story story-automotive"
+              class="img-story"
+              loading="lazy"
+            />
+            <div class="story-card story-card-down">
+              <h3>FMCG</h3>
+              <div class="story-card-detail">
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-challenge.png"
+                    alt="ic-challenge"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>Challenge</b></p>
+                    <p class="text-light">
+                      Slow adoption of traditional loyalty programs.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-increase.png"
+                    alt="ic-increase"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>35% increase</b></p>
+                    <p class="text-light">in reward redemption</p>
+                  </div>
+                </div>
+
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-solution.png"
+                    alt="ic-solution"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>Solution</b></p>
+                    <p class="text-light">
+                      Implemented Tada’s WhatsApp Loyalty Program to reach
+                      mechanics and store owners directly
+                    </p>
+                  </div>
+                </div>
+
+                <div class="story-card-item flex gap-12">
+                  <img
+                    src="assets/ic-boost.png"
+                    alt="ic-boost"
+                    loading="lazy"
+                    width="32px"
+                    height="32px"
+                  />
+                  <div class="grid gap-12 story-card-description">
+                    <p class="font-18"><b>25% boost</b></p>
+                    <p class="text-light">
+                      in partner engagement within three months.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of success stories -->
+
+    <!-- form  -->
+
+    <!-- banner  -->
+    <div class="banner">
+      <div class="page-center">
+        <div class="banner-content flex">
+          <div class="grid gap-24 banner-content-detail">
+            <div class="grid gap-12">
+              <h2 class="text-invert">Lorem Ipsum</h2>
+              <p class="text-invert">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <button class="btn-primary">Book a Demo</button>
+          </div>
+          <img
+            src="assets/banner-phone.png"
+            alt="Banner Phone"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end of banner -->
+
+    <!-- footer  -->
+    <footer>
+      <div class="page-center">
+        <div class="flex justify-space-between footer-content">
+          <img
+            src="assets/Logo Whatsapp Loyalty.png"
+            alt="Logo WhatsApp Loyalty"
+            width="204px"
+            height="32px"
+            loading="lazy"
+          />
+          <p>Copyright © 2024 Alright Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="interaction.js"></script>
+  </body>
+</html>
