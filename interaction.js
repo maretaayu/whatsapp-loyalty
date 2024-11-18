@@ -68,3 +68,13 @@ const firstItem = accordionItems[0];
 firstItem.classList.add("active");
 firstItem.querySelector(".accordion-content").style.maxHeight =
   firstItem.querySelector(".accordion-content").scrollHeight + "px";
+
+// navbar
+const mobileNav = document.querySelector(".hamburger");
+const navbar = document.querySelector(".menubar");
+
+const toggleNav = () => {
+  navbar.classList.toggle("active-nav");
+  mobileNav.classList.toggle("hamburger-active");
+};
+mobileNav.addEventListener("click", () => toggleNav());

@@ -12,20 +12,48 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#home">
+    <nav>
+      <div class="logo">
         <img src="assets/Logo Whatsapp Loyalty.png" alt="logo" />
-      </a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
+      </div>
+      <div class="flex gap-sm">
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="#success-stories">Success Stories</a>
+          </li>
+        </ul>
+        <div class="flex gap-16 align-center">
+          <button class="btn-primary"><a href="#form">Book a Demo</a></button>
+          <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#features">Features</a>
+        </li>
+        <li>
+          <a href="#success-stories">Success Stories</a>
+        </li>
+      </ul>
     </div>
 
     <!-- hero  -->
-    <div class="hero">
+    <div class="hero" id="about">
       <div class="page-center">
         <div class="hero-content">
           <img
@@ -40,7 +68,7 @@
             Simplify your incentive programs for retailers, store owners, and
             SPGs—no app download required.
           </p>
-          <button class="btn-primary">Book a Demo</button>
+          <button class="btn-primary"><a href="#form">Book a Demo</a></button>
           <div class="chat-interaction">
             <div class="chat-container">
               <div class="messages">
@@ -80,7 +108,7 @@
     <!-- end of client -->
 
     <!-- why  -->
-    <div class="why">
+    <div class="why" id="features">
       <div class="page-center">
         <div class="why-content">
           <div class="flex flex-column gap-24 text-center">
@@ -157,7 +185,7 @@
           </div>
 
           <!-- tab  -->
-          <div class="tab">
+          <div class="tab mb-4">
             <button
               class="tablinks"
               onclick="openCity(event, 'Register')"
@@ -419,7 +447,7 @@
     <!-- end of accordion -->
 
     <!-- success stories  -->
-    <div class="stories">
+    <div class="stories" id="success-stories">
       <div class="page-centern">
         <div class="stories-content">
           <h2 class="text-center">Success Stories</h2>
@@ -433,7 +461,7 @@
             <div class="story-card story-card-up">
               <h3>Automotive Parts Brand</h3>
               <div class="story-card-detail">
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-challenge.png"
                     alt="ic-challenge"
@@ -441,7 +469,7 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>Challenge</b></p>
                     <p class="text-light">
                       Slow adoption of traditional loyalty programs.
@@ -449,7 +477,7 @@
                   </div>
                 </div>
 
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-increase.png"
                     alt="ic-increase"
@@ -457,13 +485,13 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>35% increase</b></p>
                     <p class="text-light">in reward redemption</p>
                   </div>
                 </div>
 
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-solution.png"
                     alt="ic-solution"
@@ -471,7 +499,7 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>Solution</b></p>
                     <p class="text-light">
                       Implemented Tada’s WhatsApp Loyalty Program to reach
@@ -480,7 +508,7 @@
                   </div>
                 </div>
 
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-boost.png"
                     alt="ic-boost"
@@ -488,7 +516,7 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>25% boost</b></p>
                     <p class="text-light">
                       in partner engagement within three months.
@@ -509,7 +537,7 @@
             <div class="story-card story-card-down">
               <h3>FMCG</h3>
               <div class="story-card-detail">
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-challenge.png"
                     alt="ic-challenge"
@@ -517,7 +545,7 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>Challenge</b></p>
                     <p class="text-light">
                       Slow adoption of traditional loyalty programs.
@@ -525,7 +553,7 @@
                   </div>
                 </div>
 
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-increase.png"
                     alt="ic-increase"
@@ -533,13 +561,13 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>35% increase</b></p>
                     <p class="text-light">in reward redemption</p>
                   </div>
                 </div>
 
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-solution.png"
                     alt="ic-solution"
@@ -547,7 +575,7 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>Solution</b></p>
                     <p class="text-light">
                       Implemented Tada’s WhatsApp Loyalty Program to reach
@@ -556,7 +584,7 @@
                   </div>
                 </div>
 
-                <div class="story-card-item flex gap-12">
+                <div class="story-card-item flex gap-sm">
                   <img
                     src="assets/ic-boost.png"
                     alt="ic-boost"
@@ -564,7 +592,7 @@
                     width="32px"
                     height="32px"
                   />
-                  <div class="grid gap-12 story-card-description">
+                  <div class="grid gap-sm story-card-description">
                     <p class="font-18"><b>25% boost</b></p>
                     <p class="text-light">
                       in partner engagement within three months.
@@ -580,13 +608,34 @@
     <!-- end of success stories -->
 
     <!-- form  -->
+    <section class="form" id="form">
+      <div class="page-center">
+        <div class="flex align-center gap-24 form-content">
+          <div class="flex-1">
+            <h2 class="mb-4">Let us help you change the game</h2>
+            <script
+              charset="utf-8"
+              type="text/javascript"
+              src="//js.hsforms.net/forms/embed/v2.js"
+            ></script>
+            <script>
+              hbspt.forms.create({
+                portalId: "4770394",
+                formId: "b8e3d52a-dff9-4e02-bb81-5cd0dbf3bd70",
+              });
+            </script>
+          </div>
+          <img src="assets/form-asset.png" alt="Form Asset" loading="lazy" />
+        </div>
+      </div>
+    </section>
 
     <!-- banner  -->
     <div class="banner">
       <div class="page-center">
         <div class="banner-content flex">
           <div class="grid gap-24 banner-content-detail">
-            <div class="grid gap-12">
+            <div class="grid gap-sm">
               <h2 class="text-invert">Lorem Ipsum</h2>
               <p class="text-invert">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -594,7 +643,7 @@
                 text ever since the 1500s
               </p>
             </div>
-            <button class="btn-primary">Book a Demo</button>
+            <button class="btn-primary"><a href="#form">Book a Demo</a></button>
           </div>
           <img
             src="assets/banner-phone.png"
