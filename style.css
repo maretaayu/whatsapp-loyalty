@@ -228,7 +228,8 @@ button {
 .platform,
 .stories,
 .banner,
-.form {
+.form,
+.client {
   padding: 60px 0;
 }
 .why-group {
@@ -301,10 +302,6 @@ button {
   margin-top: 60px;
 }
 
-.client {
-  padding: 32px 0;
-}
-
 .story-card {
   border-radius: 16px;
   background: linear-gradient(96deg, #ecfff7 7.34%, #fff 33.02%);
@@ -356,6 +353,9 @@ button {
 @media (max-width: 768px) {
   .form-content {
     flex-direction: column-reverse;
+  }
+  .client {
+    padding: 32px 0;
   }
   .story-item {
     margin-top: 32px;
