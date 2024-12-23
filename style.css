@@ -213,6 +213,7 @@ button {
   background: white;
   border-top-left-radius: 4px;
   animation: bubbleUp2 5s ease-out infinite;
+  box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.2);
 }
 
 .bubble-right {
@@ -416,15 +417,33 @@ button {
     overflow: scroll !important;
   }
 }
+.home-demo .item {
+  width: 156px;
+  height: 120px;
+}
+
+.owl-item {
+  display: flex;
+  justify-content: center;
+}
 
 @media (min-width: 768px) {
   h1 {
     width: 84%;
     font-size: 2.5rem;
   }
+  .client-content {
+    justify-content: center;
+  }
   .hero {
     text-align: center;
     padding-top: 100px;
+  }
+  .hero-content h1 {
+    width: 70%;
+  }
+  .hero-content p {
+    width: 50%;
   }
 
   h1 {

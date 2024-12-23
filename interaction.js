@@ -78,3 +78,26 @@ const toggleNav = () => {
   mobileNav.classList.toggle("hamburger-active");
 };
 mobileNav.addEventListener("click", () => toggleNav());
+
+// carousel
+$(function () {
+  // Owl Carousel
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 5, // Default untuk desktop
+    margin: 10,
+    loop: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 2, // 2 item untuk perangkat dengan lebar layar 0px hingga 600px
+      },
+      600: {
+        items: 3, // 3 item untuk perangkat dengan lebar layar 600px hingga 1000px
+      },
+      1000: {
+        items: 5, // 5 item untuk perangkat dengan lebar layar di atas 1000px
+      },
+    },
+  });
+});
